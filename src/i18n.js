@@ -33,33 +33,33 @@ export const translations = {
   },
   es: {
     header: {
-      home: 'Home',
-      about: 'About',
-      contact: 'Contact'
+      home: 'Inicio',
+      about: 'Acerca de',
+      contact: 'Contacto'
     },
     home: {
       title: "Su salud es nuestra prioridad y su comodidad nuestro compromiso",
-      cta: "Book your trip now"
+      cta: "Reserve su viaje ahora"
     },
     aboutUs: {
       who: {
-        title: "Quienes Somos",
+        title: "Quiénes Somos",
         text: "Nuestra misión es servir a nuestra comunidad brindando un transporte confiable, respetuoso y accesible para las personas que dependen de Medicaid para su atención médica. Creemos que todos merecen la oportunidad de llegar a sus citas médicas de manera segura y puntual, y nos enorgullece ser un socio de confianza en el apoyo a la salud y la independencia de nuestros vecinos."
       },
       why: {
-        title: "Porque elegirnos",
+        title: "Por qué elegirnos",
         points: [
           'Empresa de transporte familiar que trata a cada paciente como a uno de los nuestros, con paciencia, compasión y respeto.',
           'Atención personalizada adaptada a tus necesidades, ya sea que necesites asistencia adicional, horarios flexibles o servicio puerta a puerta.',
           'Transporte puntual para tus citas médicas.',
           'Vehículos seguros, limpios y cómodos, equipados para un transporte médico confiable.',
-          'Como negocio familiar local, nos enorgullece servir a nuestra comunidad y construir relaciones duraderas con nuestros clientes',
+          'Como negocio familiar local, nos enorgullece servir a nuestra comunidad y construir relaciones duraderas con nuestros clientes.'
         ]
       }
     },
     contact: {
-      title: "Contactanos",
-      heading: "¿Eres un paciente de Medicaid o Medicare que necesita transporte? Puede que seamos justo lo que necesitas?",
+      title: "Contáctanos",
+      heading: "¿Eres un paciente de Medicaid o Medicare que necesita transporte? Puede que seamos justo lo que necesitas.",
       subtext: "Programa tus viajes a través de MAS y pide LIPAID. L-I-P-A-I-D."
     }
   },

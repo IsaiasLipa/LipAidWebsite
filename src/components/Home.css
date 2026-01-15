@@ -23,6 +23,12 @@
   max-width: 90%;
 }
 
+.hero-text h1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+}
+
 .book-button {
   position: absolute;
   top: 55%;

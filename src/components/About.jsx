@@ -1,10 +1,10 @@
 import './About.css';
 import aboutImage from '../assets/aboutImage.png';
-import { useEffect, useRef } from 'react';
-export default function About({texts}) {
+
+export default function About({ texts, id }) {
 
   return (
-    <section id="about" className="about">
+    <section id={id} className="about">
 
       {/* Intro paragraph */}
       <div>

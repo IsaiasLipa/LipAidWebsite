@@ -1,4 +1,3 @@
-
 import './Header.css';
 import Logo1 from '../assets/Logo1.png';
 import { useState } from 'react';
@@ -16,13 +15,19 @@ export default function Header({ texts }) {
         <button
           className="menu-toggle"
           onClick={() => setIsMenuOpen(prev => !prev)}
+          type="button"
           aria-label="Toggle navigation menu"
+          aria-expanded={isMenuOpen}
+          aria-controls="primary-navigation"
         >
           ☰
         </button>
 
         {/* Nav links */}
-        <div className={`nav-buttons ${isMenuOpen ? "open" : ""}`}>
+        <div
+          id="primary-navigation"
+          className={`nav-buttons ${isMenuOpen ? "open" : ""}`}
+        >
           <a className="nav-button" href="#home" onClick={() => setIsMenuOpen(false)}>
             {texts.home}
           </a>

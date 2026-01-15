@@ -1,7 +1,8 @@
 import './Contact.css';
-export default function Contact({texts}) {
+
+export default function Contact({ texts, id }) {
     return (
-        <section id='contact' className="contact-section">
+        <section id={id} className="contact-section">
 
             <div className="contact-content">
                 <h2 className="section-title">{texts.title}</h2>
